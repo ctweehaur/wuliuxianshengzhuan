@@ -1,7 +1,7 @@
 const quizQuestions = [
     {
         id: 1,
-        textStructure: [{w: "下列", p: "xià liè"}, {w: "句子", p: "jù zi"}, "中，", {w: "成语", p: "chéng yǔ"}, "“", {w: "不求甚解", p: "bù qiú shèn jiě"}, "”", {w: "在文中的", p: "zài wén zhōng de"}, {w: "古典原意", p: "gǔ diǎn yuán yì"}, {w: "是", p: "shì"}, "？"],
+        textStructure: [{w: "下列", p: "xià liè"}, {w: "句子中", p: "jù zi zhōng"}, "，", {w: "成语", p: "chéng yǔ"}, "“", {w: "不求甚解", p: "bù qiú shèn jiě"}, "”", {w: "在文中的", p: "zài wén zhōng de"}, {w: "古典原意", p: "gǔ diǎn yuán yì"}, {w: "是", p: "shì"}, "？"],
         en: "What is the original classical meaning of 'bù qiú shèn jiě' in this text?",
         options: [
             { 
@@ -71,7 +71,7 @@ const quizQuestions = [
     },
     {
         id: 3,
-        textStructure: [{w: "下列", p: "xià liè"}, {w: "成语", p: "chéng yǔ"}, "中，", {w: "哪一个", p: "nǎ yí gè"}, {w: "不能用来", p: "bù néng yòng lái"}, {w: "形容五柳先生的", p: "xíng róng wǔ lǔ xiān sheng de"}, {w: "物质生活贫困", p: "wù zhì shēng huó pín kùn"}, "？"],
+        textStructure: [{w: "下列", p: "xià liè"}, {w: "成语中", p: "chéng yǔ zhōng"}, "，", {w: "哪一个", p: "nǎ yí gè"}, {w: "不能用来", p: "bù néng yòng lái"}, {w: "形容五柳先生的", p: "xíng róng wǔ lǔ xiān sheng de"}, {w: "物质生活贫困", p: "wù zhì shēng huó pín kùn"}, "？"],
         en: "Which of the following idioms CANNOT describe Wuliu's poor physical life?",
         options: [
             { textStructure: [{w: "环堵萧然", p: "huán dǔ xiāo rán" }], en: "Huán Dǔ Xiāo Rán (empty walls).", correct: false, explanationStructure: [{w: "错误", p: "cuò wù"}, "，", {w: "这形容他家里", p: "zhè xíng róng tā jiā lǐ"}, {w: "土墙破旧空无一物", p: "tǔ qiáng pò jiù kōng wú yí wù"}, "，", {w: "属于物质贫困", p: "shǔ yú wù zhì pín kùn"}, "。"], explanationEn: "Incorrect. This details his bare, empty rooms, reflecting severe material poverty." },
