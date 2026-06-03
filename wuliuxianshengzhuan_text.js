@@ -105,7 +105,7 @@ const poemData = [
     { text: "，", punc: true },
     { 
         text: "曾不吝情去留", 
-        py: "céng bú lìn qíng qù liú", 
+        py: "céng bú lìn qíng qù luú", 
         zh: "<strong>大意</strong>：竟然从来不把委婉告辞或留下看得太重。<br><strong>曾不</strong>：加强否定短语，竟然不、从来不。<br><strong>吝情</strong>：舍不得、顾惜。<br><strong>去留</strong>：离去或留下。", 
         en: "never caring whether he went or stayed.", 
         exam: true 
@@ -121,7 +121,7 @@ const poemData = [
     { text: "，", punc: true },
     { 
         text: "不蔽风日", 
-        py: "bú bì fèng rì", 
+        py: "bú bì fēng rì", 
         zh: "<strong>大意</strong>：遮挡不住风吹日晒。<br><strong>不蔽</strong>：动词短语，无法遮蔽、挡不住。<br><strong>风日</strong>：狂风和烈日。", 
         en: "failing to protect him from wind and sun;" 
     },
@@ -146,7 +146,6 @@ const poemData = [
     { text: "。", punc: true },
     { text: "常著文章自娱", py: "cháng zhù wén zhāng zì yú", zh: "<strong>词组大意</strong>：经常写文章来娱乐自己。著：撰写；自娱：使自己快乐。", en: "He often wrote articles to amuse himself," },
     { text: "，", punc: true },
-    // 🎯【精准修复硬伤】：彻底消灭“Ref”，换上微结构化精致排版！
     { 
         text: "颇示己志", 
         py: "pō shì jǐ zhì", 
@@ -161,13 +160,13 @@ const poemData = [
     { text: "赞曰", py: "zàn yuē", zh: "<strong>大意</strong>：传记结尾的评论文字说。赞：历史传记结尾作者的总结性评论。", en: "The commentary says:" },
     { text: "：", punc: true },
     { text: "黔娄之妻", py: "qián lóu zhī qī", zh: "黔娄的妻子（黔娄是战国时著名的清高隐士）。", en: "The wife of Qian Lou" },
-    { text: "有言", py: "yǒu y言", zh: "曾经说过这样的话。", en: "once said:" },
+    { text: "有言", py: "yǒu yán", zh: "曾经说过这样的话。", en: "once said:" },
     { text: "：", punc: true },
     { text: "“", punc: true },
     { 
         text: "不戚戚于贫贱", 
         py: "bú qī qī yú pín jiàn", 
-        zh: "<strong>名式大意</strong>：不为贫贱而感到忧愁焦虑。<br><strong>不戚戚</strong>：不忧愁、不焦虑。<br><strong>于贫贱</strong>：因为贫穷和卑贱。", 
+        zh: "<strong>名句大意</strong>：不为贫贱而感到忧愁焦虑。<br><strong>不戚戚</strong>：不忧愁、不焦虑。<br><strong>于贫贱</strong>：因为贫穷和卑贱。", 
         en: "Do not be anxious over poverty and low status,", 
         exam: true 
     },
@@ -175,7 +174,7 @@ const poemData = [
     { 
         text: "不汲汲于富贵", 
         py: "bù jí jí yú fù guì", 
-        zh: "<strong>名式大意</strong>：不拼命去追求富贵名利。<br><strong>不汲汲</strong>：心情不急切、不狂热追求。<br><strong>于富贵</strong>：对于富贵名利。", 
+        zh: "<strong>名句大意</strong>：不拼命去追求富贵名利。<br><strong>不汲汲</strong>：心情不急切、不狂热追求。<br><strong>于富贵</strong>：对于富贵名利。", 
         en: "do not be eager for wealth and rank.", 
         exam: true 
     },
@@ -195,7 +194,7 @@ const poemData = [
     { text: "。", punc: true },
     { 
         text: "无怀氏之民欤", 
-        py: "wú huái mìng jī mín yú", 
+        py: "wú huái shì zhī mín yú", 
         zh: "<strong>大意</strong>：他是上古无怀氏社会的百姓吧？<br><strong>无怀氏</strong>：理想的远古和平乌托邦社会。<br><strong>欤</strong>：文言句末感叹推测语气词，吧。", 
         en: "Is he a citizen of the ancient peaceful clan of Wuhuai?", 
         exam: true 
@@ -203,7 +202,7 @@ const poemData = [
     { text: "？", punc: true },
     { 
         text: "葛天氏之民欤", 
-        py: "gě tài mìng jī mín yú", 
+        py: "gě tiān shì zhī mín yú", 
         zh: "<strong>大意</strong>：他是上古葛天氏社会的百姓吧？<br><strong>葛天氏</strong>：另一个远古淳朴的乌托邦社会。<br><strong>欤</strong>：语气词，吧。", 
         en: "Or perhaps a citizen of the ancient clan of Getian?", 
         exam: true 
