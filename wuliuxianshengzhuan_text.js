@@ -3,11 +3,16 @@ const poemData = [
     { 
         text: "不知何许", 
         py: "bù zhī hé xǔ", 
-        zh: "<strong>大意</strong>：不知道是什么地方（的人）。<br><strong>不知</strong>：动词短语，不知道。<br><strong>何许</strong>：何处、什么地方。", 
+        zh: "<strong>大意</strong>：不知道是什么地方的人。<br><strong>不知</strong>：动词短语，不知道。<br><strong>何许</strong>：何处、什么地方。", 
         en: "did not know what place he came from,", 
         exam: true 
     },
-    { text: "人也", py: "rén yě", zh: "人。<strong>也</strong>：文言句末判断语气词，不译。", en: "he was," },
+    { 
+        text: "人也", 
+        py: "rén yě", 
+        zh: "<strong>大意</strong>：人。<br><strong>也</strong>：文言句末判断语气词，表陈述，通常不需要译出。", 
+        en: "he was," 
+    },
     { text: "，", punc: true },
     { 
         text: "亦不详其姓字", 
@@ -18,7 +23,6 @@ const poemData = [
     },
     { text: "，", punc: true },
     { text: "宅边", py: "zhái biān", zh: "住宅旁边。", en: "Beside his house" },
-    // 🎯【意群死绑定】：有五柳树
     { 
         text: "有五柳树", 
         py: "yǒu wǔ liǔ shù", 
@@ -36,11 +40,10 @@ const poemData = [
     { text: "。", punc: true },
     { text: "闲静少言", py: "xián jìng shǎo yán", zh: "<strong>成语大意</strong>：安闲沉静，很少说话。<br><strong>闲静</strong>：安闲沉静。<br><strong>少言</strong>：很少说话。", en: "He was quiet and spoke little," },
     { text: "，", punc: true },
-    // 🎯【意群死绑定】：不慕荣利
     { 
         text: "不慕荣利", 
         py: "bú mù róng lì", 
-        zh: "<strong>成语大意</strong>：不羡慕荣华利禄。<br><strong>不慕</strong>：动词短语，不羡慕、不追求。<br><strong>荣利</strong>：荣誉与财利（名利）。", 
+        zh: "<strong>成语大意</strong>：不羡慕荣华利禄。<br><strong>不慕</strong>：不羡慕、不追求。<br><strong>荣利</strong>：荣誉与财利（名利）。", 
         en: "and did not long for honor and profit." 
     },
     { text: "。", punc: true },
@@ -54,7 +57,6 @@ const poemData = [
         exam: true 
     },
     { text: "；", punc: true },
-    // 🎯【意群死绑定与微排版】：每有会意
     { 
         text: "每有会意", 
         py: "měi yǒu huì yì", 
@@ -67,7 +69,6 @@ const poemData = [
     { text: "。", punc: true },
     { text: "性嗜酒", py: "xìng shì jiǔ", zh: "<strong>词组大意</strong>：生性酷爱喝酒。<br><strong>性</strong>：天性、生性。<br><strong>嗜</strong>：酷爱、特别喜欢。", en: "By nature he was fond of wine," },
     { text: "，", punc: true },
-    // 🎯【意群死绑定】：家贫不能常得
     { 
         text: "家贫不能常得", 
         py: "jiā pín bù néng cháng dé", 
@@ -83,7 +84,6 @@ const poemData = [
         exam: true 
     },
     { text: "，", punc: true },
-    // 🎯【意群死绑定】：或置酒而招之
     { 
         text: "或置酒而招之", 
         py: "huò zhì jiǔ ér zhāo zhī", 
@@ -119,7 +119,6 @@ const poemData = [
         exam: true 
     },
     { text: "，", punc: true },
-    // 🎯【意群死绑定】：不蔽风日
     { 
         text: "不蔽风日", 
         py: "bú bì fèng rì", 
@@ -147,7 +146,13 @@ const poemData = [
     { text: "。", punc: true },
     { text: "常著文章自娱", py: "cháng zhù wén zhāng zì yú", zh: "<strong>词组大意</strong>：经常写文章来娱乐自己。著：撰写；自娱：使自己快乐。", en: "He often wrote articles to amuse himself," },
     { text: "，", punc: true },
-    { text: "Ref", py: "pō shì jǐ zhì", zh: "<strong>词组大意</strong>：很大程度上表达了自己的志向。颇：副词，很大程度上。", en: "fully showing his inner ideals." },
+    // 🎯【精准修复硬伤】：彻底消灭“Ref”，换上微结构化精致排版！
+    { 
+        text: "颇示己志", 
+        py: "pō shì jǐ zhì", 
+        zh: "<strong>大意</strong>：很大程度上表达了自己的志向。<br><strong>颇</strong>：副词，很大程度上、非常。<br><strong>示</strong>：显露、表达。<br><strong>己志</strong>：自己的志向与抱负。", 
+        en: "fully showing his inner ideals." 
+    },
     { text: "。", punc: true },
     { text: "忘怀得失", py: "wàng huái dé shī", zh: "<strong>成语大意</strong>：不把名利的得失放在心上。<br><strong>忘怀</strong>：忘记、不放在心上。", en: "He forgot all about gain and loss," },
     { text: "，", punc: true },
@@ -156,7 +161,7 @@ const poemData = [
     { text: "赞曰", py: "zàn yuē", zh: "<strong>大意</strong>：传记结尾的评论文字说。赞：历史传记结尾作者的总结性评论。", en: "The commentary says:" },
     { text: "：", punc: true },
     { text: "黔娄之妻", py: "qián lóu zhī qī", zh: "黔娄的妻子（黔娄是战国时著名的清高隐士）。", en: "The wife of Qian Lou" },
-    { text: "有言", py: "yǒu yán", zh: "曾经说过这样的话。", en: "once said:" },
+    { text: "有言", py: "yǒu y言", zh: "曾经说过这样的话。", en: "once said:" },
     { text: "：", punc: true },
     { text: "“", punc: true },
     { 
@@ -185,23 +190,20 @@ const poemData = [
     },
     { text: "？", punc: true },
     { text: "衔觞赋诗", py: "xián shāng fù shī", zh: "<strong>成语大意</strong>：一边端着酒杯喝酒，一边作诗。<br><strong>衔</strong>：用嘴含着、端着。<br><strong>觞</strong>：古代的酒杯。<br><strong>赋</strong>：写作、创作。", en: "Holding a wine cup and composing poems," },
-    { text: "空间", punc: true },
     { text: "，", punc: true },
     { text: "以乐其志", py: "yǐ lè qí zhì", zh: "<strong>词组大意</strong>：用来使自己的志向得到快乐。乐：意动用法，以……为乐。", en: "to make his inner ideals happy." },
     { text: "。", punc: true },
-    // 🎯【意群死绑定】：无怀氏之民欤
     { 
         text: "无怀氏之民欤", 
-        py: "wú huái ... jī mín yú", 
+        py: "wú huái mìng jī mín yú", 
         zh: "<strong>大意</strong>：他是上古无怀氏社会的百姓吧？<br><strong>无怀氏</strong>：理想的远古和平乌托邦社会。<br><strong>欤</strong>：文言句末感叹推测语气词，吧。", 
         en: "Is he a citizen of the ancient peaceful clan of Wuhuai?", 
         exam: true 
     },
     { text: "？", punc: true },
-    // 🎯【意群死绑定】：葛天氏之民欤
     { 
         text: "葛天氏之民欤", 
-        py: "gě tài ... jī mín yú", 
+        py: "gě tài mìng jī mín yú", 
         zh: "<strong>大意</strong>：他是上古葛天氏社会的百姓吧？<br><strong>葛天氏</strong>：另一个远古淳朴的乌托邦社会。<br><strong>欤</strong>：语气词，吧。", 
         en: "Or perhaps a citizen of the ancient clan of Getian?", 
         exam: true 
