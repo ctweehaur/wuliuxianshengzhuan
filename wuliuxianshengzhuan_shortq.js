@@ -18,7 +18,7 @@ const shortQData = [
     },
     {
         id: "Q2",
-        qZhStructure: [{w: "文章是从哪三个方面", p: "wén zhāng shì cóng nǎ sān gè fāng miàn"}, "，", {w: "来具体描绘五柳先生的", p: "lái jù tǐ miáo huì wǔ lǔ xiān sheng de"}, "“", {w: "名士真性情", p: "míng shì zhēn xìng qíng"}, "”的？"],
+        qZhStructure: [{w: "文章是从哪三个方面", p: "wén zhāng shì cóng nǎ sān gè fāng miàn"}, "，", {w: "来具体描绘五柳先生的", p: "lái jù tǐ miáo huì wǔ lǔ xiān sheng de"}, "“", {w: "名士真性情", p: "míng shì zhēn xìng qíng"}, "”？"],
         qEn: "From which three aspects did the text describe Wuliu's authentic noble personality?",
         sZhStructure: [
             [{w: "第一步", p: "dì yī bù"}, "：", {w: "归纳出读书、喝酒、写文章三大兴趣", p: "guī nà chū dú shū hē jiǔ xiě wén zhāng sān dà xìng qù"}, "。"],
